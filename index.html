@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayne Kuvi</title>
+	<meta name="veiwpoet" content="width=device-width, intial-scale=1.0"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800&display=swap" rel="stylesheet">
+   <link rel="" href="fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	
+  </head>
+  <body  data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: black; width: 90%;">
+
+	<script type="text/javascript">
+
+		function js_onload_code (){
+		
+		alert("Accessory may not be supported. Ensure device is desktop.");
+		
+		
+		}
+		
+		window.onload= js_onload_code ();
+		
+		</script>
+	  
+	  
+    <nav class="nav00 navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container" style="background-color: transparent;">
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 585px; margin-bottom: 15px; margin-top: 15px; background-color: black;">
+	        <span class="oi oi-menu"><a href="" style="margin-left: 100px;" ></a></span> 
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto" style="margin-right: 380px;">
+	          <li class="nav-item"><a href="#home-section" class="nav-link" style="color: white; font-weight: 200; "><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link" style="color: white; font-weight: 200;"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link" style="color: white; font-weight: 200;"><span>Work</span></a></li>
+	          <li class="nav-item"><a href="/documentation.html" class="nav-link" style="color: white; font-weight: 200;"><span>Docs <img src="/images/docsdot.png" style="position: absolute; width: 7px; top: 0px; margin-left: 38px;" alt=""></span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  	
+	  <div class="center">
+		<button class="btn">
+		<svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+			<polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+			<polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+		</svg>
+		<span><a style="position: sticky;" href="/pdf/2022Cv-2.pdf" target="_blank" >Download CV</span>
+		</button>
+	</div>
+
+	 
+	<section class="hero" style="position: relative; margin-left: 220px; margin-top: 300px;padding-bottom: 170px; bottom: 150px;">
+		<p class="name1" style="position: relative; color: #9499ff; top: 30px;">Hello, my name is</p>
+		<p class="name2" style=" font-size: 70px; width: 109%; font-weight: 100; color: white; ">Wayne Kuvi</p>
+		<p class="name3" style="font-size: 70px; margin-top: -50px; font-weight: 1;  ">
+			<span
+			style="color: #999999;"
+			class="txt-rotate"
+			data-period="2000"
+			data-rotate='[ "Student.", "Full Stack Developer.", "I Build Things On The Web.", "Developer."]'></span></p>
+		<p><a  style="color: #999999;">My name is </a> <a  style="color: #9499ff;">Wayne Kuvi</a> , aspiring full stack developer based in <br><a href="" style="color: #9499ff;">London, UK</a>. I have impleted my developement skills through projects <br>showcased into this portfolio below.</p>
+	</section>
+	
+	<div class="skull">
+
+			<div class="support-scrollsnap"></div>
+
+			<div class="scroll-container">
+			<div class="scroll-area">
+			<script style="position: absolute;" type="x-shader/x-vertex" id="vertexshader">
+				attribute float size;
+				attribute vec3 color;
+				attribute float fade;
+			
+				varying vec3 vColor;
+			
+				void main() {
+				vColor = color;
+				vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
+				gl_PointSize = size;
+				gl_Position = projectionMatrix * mvPosition;
+				}
+			</script>
+			
+			<script style="position: absolute; width: 0px;" type="x-shader/x-fragment" id="fragmentshader">
+				uniform sampler2D pointTexture;
+				varying vec3 vColor;
+				void main() {
+				gl_FragColor = vec4(vColor, 1.0);
+				gl_FragColor = gl_FragColor * texture2D(pointTexture, gl_PointCoord);
+				}
+			</script>
+		</div>
+	</div>
+
+
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js'></script>
+			<script src='https://assets.codepen.io/127738/MeshSurfaceSampler_20210711.js'></script>
+			<script src='https://assets.codepen.io/127738/OBJLoader_20210711.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/controls/TrackballControls.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/postprocessing/EffectComposer.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/postprocessing/RenderPass.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/postprocessing/UnrealBloomPass.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/shaders/LuminosityHighPassShader.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/shaders/CopyShader.js'></script>
+			<script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/postprocessing/ShaderPass.js'></script>
+			<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+			<script  src="./script.js"></script>
+						</div>
+
+			
+		
+			
+	
+
+
+
+
+	  <section class="hero-wrap js-fullheight">
+     	 <div class="mouse">
+				<a href="#" class="mouse-icon">
+				</a>
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span style="position: relative; color: black; font-size: 12px; letter-spacing: 5px;  -webkit-transform: rotate(-90deg); top: 700px;  right: 400px; color: white; opacity: 100%; width: 100%;" class="hr">SCROLL <img src="/images/Down.png" alt=""></span></div>
+				</a>
+				<hr class="hr" style="position: relative; -webkit-transform: rotate(-90deg);width: 238px; right: 0px; top: 45px; background-color: #808080; ">
+				<hr class="hr" style="position: relative; position: fixed; -webkit-transform: rotate(-90deg);width: 238px; background-color: #808080; right: -75px;">
+				<p class="hr" style="position: relative; position: fixed; color: #ffff; opacity: 50%; left: -22px; font-size: 12px; bottom: 280px;-webkit-transform: rotate(-90deg);">Waynekuvi@gmail.com</p>
+				<hr class="hr" style="position: relative; position: fixed; -webkit-transform: rotate(-90deg);width: 238px;  background-color: #808080; left: -75px;">
+				<p class="hr" style="position: relative; position: fixed; color: #ffff; opacity: 50%; right: -52px; font-size: 12px; bottom: 300px;-webkit-transform: rotate(90deg);">© MMXXII. Gwneud yn Ne Cymru.</p>
+				
+				</div>
+		</section>
+
+
+
+
+		<div class="about col-md-12 heading-section ftco-animate" style="margin-left: 100px; margin-top: -500px; padding-left: 130px; padding-bottom: 100px;" id="about-section">
+			<h2 class="mb-4" style="color: #fff; font-weight: 1;">About Me<hr class="hr" style="background-color: #606060; position: absolute; width: 470px; top: 30px; left: 350px;" >
+			</h2>
+			<div  style="width: 700px">
+			<p class="ai" style=" font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Based within the  <a  href="" style="color: #9499ff;">London, UK</a> with a passion for developement and innvovation. </p>
+			<p class="ai">
+				My name is  <a  href="" style="color: #9499ff;">Wayne</a> and I enjoy creating things that live on the internet as I don't see the art of coding as chore to most. My interest in web development started back in  <a  href="" style="color: #9499ff;">2020</a> lockdown in when deciding Alevels courses and came accross the industry of technogical developement. This was to an extent an eye opener that I could one day have the potential to create my very own  <a  href="" style="color: #9499ff;">software mediums</a> in which everybody would use to scale their welfare and convience.
+			</p>
+			<p class="ai">
+				Fast-forward to today, and I’ve had mass amount of knowledged gained from working on personal projects and studying the theroy behind the practical elements in within the real world. My main focus these days is building my  <a  href="" style="color: #9499ff;">skill base</a> into various areas of development to provide an ability of  <a  href="" style="color: #9499ff;">versitility</a> as i enjoy both aspects of front-end & backend development.
+			</p>
+			</div>
+			<p style="width: 700px; margin-top: 20px;" class="alert alert-info">GitHub respository avaiavble <a target="_blank" href="https://github.com/18aint">here.<img style="width: 15px; margin-bottom: 5px; margin-left: 10px;" src="/images/link.png" alt=""></a>
+			<a href="https://github.com/18aint"><img style="width: 30px; margin-bottom: 5px; margin-left: 340px;" src="/images/git.png" alt=""></a></div>
+
+
+
+
+
+	  <!-- <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+	                <span class="number" data-number="3087608" style="margin-left:100px;">0</span>
+	                <span style="color: #fff; ">Projects completed</span>
+                </p>
+				</div>
+	          </div> -->
+	        <!-- </div> -->
+
+			<section style="height: 100px;">
+			</section>
+
+    <section class="p1 ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav style="position: sticky;" id="navi">
+					    <ul>
+					      <li><a href="#page-1" style="color: white;">01</a></li>
+					      <li><a href="#page-2" style="color: white;">02</a></li>
+					      <li><a href="#page-3" style="color: white;">03</a></li>
+					    </ul>
+					  </nav>
+					</div>
+
+					<!-- Project Number 01 -->
+					<div class="p1 col-md-9">
+					  <div id="page-1" class= "page one">
+						<p class="p00" style="font-size: 40px; color: white; font-weight: 100;">Projects</p><hr class="hr" style="background-color: #606060; position: absolute; width: 640px; top: 25px; left: 175px;" >
+					  	<p class="heading" style="font-weight: 1; color: white;">WIFI Router- Raspberry Pi 4<a style="position: absolute; font-size: 18px; padding-left: 15px; margin-top: 11px; color: #9499ff; font-weight: 1;   font-style: italic;">BETA</a> </p>
+							<div class="01" style="
+								background: transparent;
+								width: 250px;
+								height: 175px;
+								border-radius: 3px;
+								outline: 1px solid #9499ff;
+								margin-bottom: 5px;
+							  " ><a href="https://wificonfig.netlify.app" target="_blank"><img src="/images/01.png" alt="" style="height: 175px; width: 250px; position: absolute;  " ></a>
+							  <h1  style="margin-left: 300px; font-size: 16px;color: #9499ff;">Overveiw</h1>
+							  <p style="margin-left: 300px; width: 500px; font-size: 12px; ">Compatable Wi-Fi network anyaltic software alongside a remote access VPN client configuration server applicable to a various number of devices. User's device and location specification parameters fetched to contribute to user functionality. </p>
+							  <h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Project Difficulties</h1>
+							  <p style="margin-left: 300px; width: 500px; font-size: 12px; ">Creating the server side configuration page was a technical due to the ability to having to update and delete previous generated interfaces.</p>
+							  <h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">My Solution</h1>
+							  <p style="margin-left: 300px; width: 500px; font-size: 12px;">Impleting a client details forms within the user inputs allows for the user to update and alter information within the inferace generations such as as the number of the clients created further within the <a href="/documentation.html" style="color: #9499ff; font-weight: 300;   font-style: italic;">docs</a></p></p>
+							  <h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Notable Features</h1>
+							  <p style="margin-left: 300px; width: 500px; font-size: 12px;">Features of importing the client configs from external applications allows for wider compaitibility; Generating servers based on user input details; Network speed test calculations performed; User's location and hardware device specification.</p>
+							  <h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Gratification</h1>
+							  <p style="margin-left: 300px; width: 500px; font-size: 12px;">This aided my learning regarding internal features of Wifi routers and also the fundamentals of VPN configuration.</p>
+
+
+
+							</div>
+							<p style="display:inline;">
+								<span style="font-size: 12px; margin-top: 5px; color: #9499ff;"> <img src="images/LivePreveiw.png" alt="" style="margin-right: 5px; "><a href="https://6320b5c6276c381ca72f9f79--neon-mermaid-484678.netlify.app"> Live Preveiw</a></span>
+								<span style="margin-left:30px; font-size: 12px; margin-top: 10px; color: #9499ff;"> <img src="images/SourceCode.png" alt=""><a href="https://github.com/18aint/Raspberry-Pi-4-WiFiRouter-Speed-Test.git"> Source Code</a></span>
+							 </p>	
+							<h1 style="font-size: 16px; margin-top:10px; color: #9499ff;">Technologies Used</h1>
+							<p style="display:inline;">
+							  <span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Wireguard.fdqn</span>
+							  <span style="margin-left:70px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">JavaScript</span>
+						   </p>
+						   <br>
+						   <p style="display:inline;">
+							   <span style="font-size: 12px; margin-right: 18.5px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Cloudflare</span>
+							   <span style="margin-left: 80px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Vue.js</span>
+							</p>
+							<br>
+							<p style="display:inline;">
+								<span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Ajax API</span>
+							 </p>
+							<div class="text pl-3">
+						  </div>
+					  </div>
+						<hr style="width: 850px; margin-top: 300px; background-color: #808080;"> 
+
+	    					
+	    				<!-- Project Number 02 -->
+	    				
+								<div class="col-md-9">
+									<div id="page-2"  class= "page two">
+										<p class="heading" style="font-weight: 1; margin-top: 100px; color: white;">AI Hand Pose Estimation </p>
+										  <div class="01" style="
+											  background: transparent;
+											  width: 250px;
+											  height: 175PX;
+											  border-radius: 3px;
+											  outline: 1px solid white;
+											  margin-bottom: 5px;
+											"><a href="https://aihandpose.netlify.app" target="_blank"><img src="/images/AI_hand.png" alt="" style="height: 175px; width: 250px; position: absolute;  " ></a>
+											<h1  style="margin-left: 300px; font-size: 16px;color: #9499ff;">Overveiw</h1>
+											<p style="margin-left: 300px; width: 500px; font-size: 12px; ">With the AI ability to perceive the users hand shape and motion whilst detecting their digtail vital compenents. Also impleting an intial product website inferface intended for launching the application.</p>
+											<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Project Difficulties</h1>
+											<p style="margin-left: 300px; width: 500px; font-size: 12px; ">The main challange faced was the aspect of incorpating the setting menu towards the hand detection grid as their were many unfamilar terms and Javascript function needed to do so. </p>
+											<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">My Solution</h1>
+											<p style="margin-left: 300px; width: 500px; font-size: 12px;">In order to overcome the difficulties of adding the settings options was through the use of constructors and enum types.</p>
+											<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Notable Features</h1>
+											<p style="margin-left: 300px; width: 500px; font-size: 12px;">Intial website, UI based on an IOS 15 Mac in order to launch application, utilised as a product landing page. AI hand detection along live adjustable camera and detection settings. </p>
+											<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Gratification</h1>
+											<p style="margin-left: 300px; width: 500px; font-size: 12px;">I've improved heavily in terms of understanding within Javascript and AI technologies. Also my Ui/UX skills have also been improved as I stemed my inspiration of a high standard interface.</p>
+			  
+			  
+			  
+										  </div>
+										  <p style="display:inline;">
+											  <span style="font-size: 12px; margin-top: 5px; color: #9499ff;"> <img src="images/LivePreveiw.png" alt="" style="margin-right: 5px; "> Live Preveiw</span>
+											  <span style="margin-left:30px; font-size: 12px; margin-top: 10px; color: #9499ff;"> <img src="images/SourceCode.png" alt=""><a href="https://github.com/18aint/AI-Hand-Pose-Esitmation.git"> Source Code</a></span>
+										   </p>	
+										  <h1 style="font-size: 16px; margin-top:10px; color: #9499ff
+										  
+										  
+										 
+										 
+										 
+										 
+										 ;">Technologies Used</h1>
+										  <p style="display:inline;">
+											  <span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">HTML/CSS</span>
+											  <span style="margin-left:70px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">JavaScript</span>
+										   </p>
+										   <br>
+										   <p style="display:inline;">
+											   <span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Media Pipe API</span>
+											   <span style="margin-left:47px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Figma</span>
+											</p>
+											<br>
+											<p style="display:inline;">
+												<span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Google Hand API</span>
+											 </p>
+										  <div class="text pl-3">
+										</div>
+									</div>
+									<hr style="width: 850px; margin-top: 300px; background-color: #808080;"> 
+	    			
+					<!-- Project Number 03 -->
+	    				
+					<div class="col-md-9">
+						<div id="page-3" class= "page two">
+							<p class="heading" style="font-weight: 1; margin-top: 100px;  color: white;">Ethereum Network Transfer</p>
+							  <div class="01" style="
+								  background: transparent;
+								  width: 250px;
+								  height: 175PX;
+								  border-radius: 3px;
+								  outline: 1px solid white;
+								  margin-bottom: 5px;
+								"><a href="https://github.com/18aint/Metamask-Token-Transaction" target="_blank"><img src="/images/metamask.png" alt="" style="height: 175px; width: 250px; position: absolute; ;" ></a>
+								<h1  style="margin-left: 300px; font-size: 16px;color: #9499ff;">Overveiw</h1>
+								<p style="margin-left: 300px; width: 500px; font-size: 12px; ">A decentralised application to allow you to connect your metamask wallet in order to sign and send transaction acroos account of the Ethereum smart chain through the Ethereum Provider and Metamask API</p>
+								<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Project Difficulties</h1>
+								<p style="margin-left: 300px; width: 500px; font-size: 12px; ">Creating my own token on remix and impleting it onto my own blockchain was difficult due to the new exposure of learning terminal and testing fiffrent solutions. </p>
+								<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">My Solution</h1>
+								<p style="margin-left: 300px; width: 500px; font-size: 12px;">This was resolved through research and tutorials and the later on adjusting the code to suit my my application needs.</p>
+								<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Notable Features</h1>
+								<p style="margin-left: 300px; width: 500px; font-size: 12px;">The ability to send my token on either the Ethereum mainet or testnet. Being ablr to log into your account using your ETH account. Therefore, making the hassel of username ans passwords redundant. Also, being able to logout and save your ETH address so that it remians when you connect back into the account.</p>
+								<h1 class="overveiw" style="margin-left: 300px; font-size: 16px; width: 100%; color: #9499ff;">Gratification</h1>
+								<p style="margin-left: 300px; width: 500px; font-size: 12px;">I'm now famillair with Web3.Js and diifrent way to interact with a smart contract with front end delevlopment. Also, the aspect of being able to read documentation and having the ability to interperate whta needs to need to be altered to what's appropriate for my Dapp.</p>
+  
+  
+  
+							  </div>
+							  <p style="display:inline;">
+								  <span style="font-size: 12px; margin-top: 5px; color: #9499ff;"> <img src="images/LivePreveiw.png" alt="" style="margin-right: 5px; "><a href=""></a> Live Preveiw</span>
+								  <span style="margin-left:30px; font-size: 12px; margin-top: 10px; color: #9499ff;"> <img src="images/SourceCode.png" alt=""><a href="https://github.com/18aint/Raspberry-Pi-4-WiFiRouter-Speed-Test.git"> Source Code</a></span>
+							   </p>	
+							  <h1 style="font-size: 16px; margin-top:10px; color: #9499ff;">Technologies Used</h1>
+							  <p style="display:inline;">
+								<span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">HTML/CSS</span>
+								<span style="margin-left:70px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Web3.Js</span>
+							 </p>
+							 <br>
+							 <p style="display:inline;">
+								 <span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Metamask API</span>
+								 <span style="margin-left:51px; font-size: 12px;"><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Remix Token</span>
+							  </p>
+							  <br>
+							  <p style="display:inline;">
+								  <span style="font-size: 12px; "><img style="margin-right: 5px;" src="/images/bulletpoint.png" alt="">Ethereum Provider API</span>
+							   </p>
+							  <div class="text pl-3">
+							</div>
+						</div>
+	    			
+
+						<section class="footer" style="font-size: 12px; color: white; font-weight: 1; margin-left: 100px; text-align: center; width: 100%; position: relative; justify-content:centre; padding-top: 300px; left: 0px; right: 0px;">
+							<p class="footer_content">Designed & Built By Wayne Kuvi</p>
+							<p class="footer_content"><span id="time"> </span><p>
+						</section>
+					    
+
+						 
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="" rel="icon" />
+<title>Documentation</title>
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125" style="background-color:rgb(178, 178, 178);"> 
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <a href="/index.html">
+        <img style="margin-left: 20px; margin-top: 6px; width: 20px; margin-right: 10px;" src="/images/backleft.png" alt="">
+      </a>
+        <img style="width: 20px;   transform: scaleX(-1);" src="/images/backright.png" alt="">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+	
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<!-- <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav" style=" margin-left: 550px; font-size: 14px; font-weight: 200; background-color: rgb(0, 0, 0); width: 100%;">
+            <li class="dropdown"> <a class="dropdown-toggle" href="#">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Dropdown Action</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-dark.html">Another Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-primary.html">Something Else Here</a></li>
+                    <li><a class="dropdown-item" href="index-2.html">Another Link</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Another Action</a>
+                <li><a class="dropdown-item" href="#">Something Else Here</a></li>
+              </ul>
+            </li>    </ul>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation Left
+	============================ -->
+	<div class="idocs-navigation bg-dark docs-navigation-dark" style="background-color: white;">
+    <ul class="nav flex-column ">
+      <li class="nav-item"><a class="nav-link active" href="#idocs_start">Docs</a>
+          <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#idocs_installation">Overveiw</a></li>
+        </ul>
+      </li>
+        <li class="nav-item"><a class="nav-link active" href="#idocs_html_structure">Main Algorithms</a>
+          <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">Speed Test Calculation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_sass"> User Location</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">Client Config</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_theme_customization">Update Client Config</a></li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_logo_settings">Import Client Config</a></li>
+        </ul>
+      </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_layout">Design</a>
+          <ul class="nav flex-column">
+			<li class="nav-item"><a class="nav-link" href="#idocs_header">Login</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_navbar">Sign Up</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_sidebar">Dashboard</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_footer">VPN Config</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_box_layout">Other</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_content">Data Structures</a>
+			<ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_typography">Form/Navigation Based</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_code">Validation Required</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#idocs_table">FLowchart diagram</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_icons">Icons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_image">Image</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_video">Video</a></li> -->
+          </ul>
+		</li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_components">Technical solutions</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_accordion">Testing</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#idocs_tabs">Tabs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_social_icon">Social Icon</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_helper_classes">Helper Classes</a></li> -->
+          </ul>
+        <!-- </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_source_credits">Source & Credits</a></li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_templates">More Templates</a></li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
+			<ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#v1-1">v1.1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
+          </ul>
+		</li>
+      </ul> -->
+    </div>
+
+    <!-- Side Bar Navigation Right -->
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+        <h1>Documentation</h1>
+        <h2>WIFI Router- Raspberry Pi 4</h2>
+        <p class="lead">Computer Science AQA NEA Project</p>
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong>Version:</strong> 1.0</li>
+					<li><strong>Author:</strong> <a href="http://www.harnishdesign.net" target="_blank">Wayne Kuvi</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong class="font-weight-700">Created:</strong> 21 June, 2022</li>
+					<li><strong>Update:</strong> 12 Sep, 2022</li>
+				</ul>
+			</div>
+		</div>
+        <p class="alert alert-info">GitHub respository is avaiavble <a target="_blank" href="https://github.com/18aint/Raspberry-Pi-4-WiFiRouter-Speed-Test">here</a>.
+        <br>
+        Word document avaiavble <a target="_blank" href="https://riddlesdown-my.sharepoint.com/:w:/r/personal/16kuviw_rcmail_org_uk/Documents/Wayne%20Kuvi-Documentation.docx?d=wb94ec49deebe4a8d881e88e79cd789bf&csf=1&web=1&e=qdoeBy">here</a>.
+      </p>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Installation
+		============================ -->
+        <section id="idocs_installation">
+          <h2>Overveiw</h2>
+          <p class="lead">Wi-Fi network speed test & VPN Configurations</p>
+          <l>
+            <li>wg-config is a tool designed officially by the  <strong>WireGuard</strong>  developing team. This new utility will provide a convenient way of configuring networks dynamically, where mesh network being one of the them.</li>
+            <br>
+            <li>Below is the folder structure for the porject's website or localhost root directory:
+            <ul>
+			<li><code>HTML/assets</code> - Contains all of the assets referenced
+			  <ul>
+                <li><code>HTML/css</code> - Stylesheet files</li>
+                <li><code>HTML/images</code> - Images files</li>
+                <li><code>HTML/js</code> - Javacript files</li>
+                <li><code>HTML/sass</code> - Sass files</li>
+                <li><code>HTML/vendor</code> – All external libs.</li>
+              </ul>
+			</li>
+			<li><code>HTML/index.html</code> - Dashboard
+        <li><code>HTML/index.html</code> - VPN Configuration
+        </ul>
+            </li>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+<h2>Main Algorithms</h2>
+<p style="margin-bottom: 50px;">These below are relavant algorithms within the programme in which automate this project provided with a breif description regarding functionality and use cases: </p>
+
+        <section id="idocs_html_structure">
+          <h2>1. Speed Test Calculation</h2>
+          <p>While in state 1, I was able to add test points When I was done, I used selectServer(callback) to select the test point with the lowest ping. This is asynchronous, calling your callback function and move to state 2. Calling setSelectedServer(server) will manually select a server and move to state 2.
+            <br>
+            - State 2: test point selected. Starting the test using start() to begin, thus moving to state 3
+            <br>
+            - State 3: the test has begun running. Here, your onupdate event calback will be called within time order, with data coming from the xm98.js retrieving data about speed and progress. A data objects will be passed to your onupdate function, with the following items:
+            <br>
+            - dlStatus: download speed in mbps
+            <br>
+            - ulStatus: upload speed in mbps
+            <br>
+            - pingStatus: ping in ms
+            <br>
+            - jitterStatus: jitter in ms
+            <br>
+            - dlProgress: progress of the download test
+            <br>
+            - ulProgress: progress of the upload test
+            <br>
+            - pingProgress: progress of the ping/jitter test
+            <br>
+            - clientIp: IP address of the client performing the test
+              At the end of the test, the onend function will be called, with a boolean specifying whether the test was aborted or if it ended normally.
+            <br>
+            The test can be aborted at any time with abort().
+            At the end of the test, it will move to state 4
+            <br>
+            - 4: The test has finished. Start() will run the test again
+            </p>
+          <p style="margin-top: 50px;" class="alert alert-info">Due to code being to long-winded, more information about this algorithm is avaiavble within the index file <a target="_blank" href="https://github.com/18aint/Raspberry-Pi-4-WiFiRouter-Speed-Test">here</a>.</p>
+        </section>
+        
+		<hr class="divider">
+		        
+		<!-- Sass
+		============================ -->
+        <section id="idocs_sass">
+          <h2>2. User Location & Device Specification</h2>
+          <p>This algorithm allows for the programme to be able to obtain the users the network IP address, global region (E.x. United Kingdom | GB), device’s hardware and browser specification (E.x. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15) known as “user agent”. Boolean indication whether device is connected towards “rasppi-webgui”.</p>
+        </section>
+            <p><strong>For Example:</strong></p>
+              <pre><code class="html">&lt;script type=&quot;application/javascript&quot;&gt;
+                 $.get(&quot;https://pages.dev/cdn-cgi/trace&quot;,
+                  function (data) { data = data .trim() .split(&quot;\n&quot;) 
+                    .reduce(function (obj, pair) { pair = pair.split(&quot;=&quot;); 
+                    return (obj[pair[0]] = pair[1]), obj; }, {});
+                     var ipjsonfile = data; document.getElementById(&quot;ipx&quot;).innerHTML = ipjsonfile.ip;
+                      document.getElementById(&quot;uag&quot;).innerHTML = ipjsonfile.uag; 
+                      let countryName = new Intl.DisplayNames([&quot;en&quot;], { type: &quot;region&quot; }); 
+                      document.getElementById(&quot;locale&quot;).innerHTML = ipjsonfile.loc + &quot; | &quot; + countryName.of(ipjsonfile.loc); 
+                    });
+              </code></pre>
+            </section>
+		<hr class="divider">
+		
+		<!-- Color Schemes
+		============================ -->
+            <section id="idocs_color_schemes">
+              <h2>3. Client Configuration</h2>
+              <p>Creating a client configuration creating a web base directory consisting of the user's inputeed parameters. Also the spect of SeverPulbic & ServerPrivate keys are implemented in order to provide security measures within the programme.</p>
+            </section>
+                <p><strong>For Example:</strong></p>
+                  <pre><code class="html">  computed: {
+                    makeclients() {
+                      var c = {};
+                      for (client in [...Array(Math.floor(this.clientcount)).keys()]) {
+                        finaloctet = Math.floor(client) + Math.floor(this.startip);
+                        c[finaloctet] = wireguard.generateKeypair();
+                        c[finaloctet].name = "Client " + finaloctet;
+                      }
+                      return c
+                    }
+                  }
+                  </code></pre>
+                </section>
+        <hr class="divider">
+
+
+            updateclients(event) {
+              this.clients = this.makeclients;
+              var clients = this.clients;
+              setTimeout(function() {
+                for (client in clients) {
+                  QRCode.toCanvas(document.getElementById('canvas' + client),
+                   document.getElementById('code' + client).innerText)
+                }
+              });
+            }
+        
+		<!-- Customization
+		============================ -->
+        <section id="idocs_theme_customization">
+          <h2>4. Update Client Configuration </h2>
+          <p>Updating the client interface is an essential feature will compensate for the users new input parameters in the circumstance that they want to utilise the configuration within an alternate server. This will also account for the number of clients via changing the integer of clients to generate the amount of client interfaces according to the client number. Also titles of the server and client side servers will update according towards the details form of Server Name, Net, Port, First IP.</p>
+        </section>
+            <p><strong>For Example:</strong></p>
+          <pre><code class="html">
+            updateclients(event) {
+              this.clients = this.makeclients;
+              var clients = this.clients;
+              setTimeout(function() {
+                for (client in clients) {
+                  QRCode.toCanvas(document.getElementById('canvas' + client),
+                   document.getElementById('code' + client).innerText)
+                }
+              });
+            }</code></pre>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Logo Settings
+		============================ -->
+        <section id="idocs_logo_settings">
+          <h2>5. Import Client Configuration</h2>
+          <p>The feature of importing parameters form a external application is possible through the "Import Server Config" button. This allows the programme to be at a higher level of compatibility.</p>
+        </section>
+            <p><strong>For Example:</strong></p>
+          <pre><code class="html">  importconfig(event) {
+            var data = this;
+            var config = document.getElementById("textimport").value.split( /\n/ ) // split lines
+            config.map( line => line.trim() ) // cleanup whitespace
+            var section = null;
+            data.oldconfig = [];
+            config.forEach(line => {
+              if ( line.length ) {
+                if ( line.startsWith("[") ) { 
+                  section = line;
+                  if (section == "[Peer]") {
+                    data.oldconfig.push("");
+                    data.oldconfig.push(section);
+                  } 
+                } else { 
+                  var parts = line.split("=");
+                  var key = parts.shift().trim();
+                  var value = parts.join("=").trim();
+                  switch (section + key) {
+                    case '[Interface]Address': data.network = value.split(".").slice(0,3).join("."); break;
+                    case '[Interface]ListenPort': data.port = value; break;
+                    case '[Interface]PrivateKey': data.serverkeys.privateKey = value; break;
+                    case '[Interface]# PublicKey': data.serverkeys.publicKey = value; break;
+                    case '[Interface]# Server': data.server = value; break;
+                    default:
+                      data.oldconfig.push(line)
+                      if (section + key == "[Peer]AllowedIPs") {
+                        var lastip = Math.floor(value.split(".").slice(-1)[0].split("/")[0])
+                        if (lastip + 1 > data.startip) {
+                          data.startip = lastip + 1;
+                        }
+                      }
+                  } 
+                }
+              } 
+</code></pre>
+        </section>
+		
+        
+		<hr class="divider">
+		
+		<!-- Layout
+		============================ -->
+        <section id="idocs_layout">
+          <h2>Design</h2>
+          <p>Below is the design interface brokendown describing the various functionalies within the programme:</p>
+          
+        <p class="alert alert-info">Live Server avaiavble <a target="_blank" href="https://6320b5c6276c381ca72f9f79--neon-mermaid-484678.netlify.app">here</a>.</p>
+          
+        
+          <h4 style="margin-top: 50px;" id="idocs_header">Sign In</h4>
+          <p>Created sign in form within web page format where users enter the information previously inputted within the database in order to access the website’s <a href="#" id="idocs_navbar"> Dashbaord </a> Information required consisting of Username/Email & password.</p>
+          <img style="width: 1050px;" src="/images/login.png" alt="">
+
+          <h4 style="margin-top: 50px;" id="idocs_navbar">Sign Up</h4>
+          <p>Created Sign up form in web page format where users enter the information required to access the website’s <a href="#" id="idocs_navbar"> Dashbaord </a> Information collected is then offset into client database consisting of a name, email address, username, and password.</p>
+          <img style="width: 1050px; " src="/images/Signup.png" alt="">
+          
+          <h4 style="margin-top: 50px;" id="idocs_sidebar">Dashboard</h4>
+          <p>This the main intial window of the programme in which you will perform the network speed test aswell as analysing the results. Also location and devices parameters are alos avaiavble to be fetched in order to highlight interal information for the user and hardware device</p>
+          <img style="width: 1050px; " src="/images/Dashboard.png" alt="">
+
+          <h4 style="margin-top: 50px;" id="idocs_footer"> <h4 style="margin-top: 50px;" id="idocs_sidebar">VPN Configuration</h4>
+          <p>Private netowrk funnel based on wireguard webpage server allowing users to have a their own custom client-side VPN server. Features allowing the user to update, delete and alter parameters to generate remote access servers for multiple devices (clients).</p>
+          <img style="width: 1050px; " src="/images/vpn.png" alt=""></img>
+          
+          <h4 style="margin-top: 50px;" id="idocs_box_layout">Other</h4>
+          <h2>Network Connection Status Prompt</h2>
+          <p>Offline nonfiction to prompt user that their device doesn’t have an established network connection</p>
+          <img style="width: 1050px; " src="/images/prompt.png" alt="">
+
+          <h2 style="margin-top: 30px;">Navigation Bar</h2>
+          <p>-The restart test button within the navigation bar will restart the webpage thus restarting the speed test, alternative the abort button
+            <br>
+          -The performance button within the navigation bar will provide the user with a modal pop up of the test live results if the progress bar is completed
+          <br>
+          -The user location button within the navigation bar will provide the user with a modal pop up of the devices and region address
+        <br>
+            -The Login button will redirect the user towards the login form in order to for the user to eithe sign in an existing account or create a new profile
+      </p>
+          <img style="width: 1050px; " src="/images/Nav.png" alt="">
+          
+          <h2 style="margin-top: 30px;">Search Bar</h2>
+          <p>Search bar intended for the user to click on this and view a drop-down menu of all the current pages available and allow for filtering through the search within the user input based of the drop-down menu items</p>
+          <img style="width: 1050px; " src="/images/search.png" alt="">
+	
+
+        <section style="margin-top: 30px;" id="idocs_content">
+          <h2>Data Structures</h2>
+          <p>Thses data structures below anaylis the back end procedures of the programme via diagram based studies<p>
+        </section>
+		  
+		<!-- Typography
+		============================ -->
+		<section id="idocs_typography">
+		  <h2>Form/Navigation Based</h2>
+      <p>The following diagram shows how the different forms that make up my system are linked and how each form can be reached from another one</p>
+      <p style="margin-top: 30px;" class="alert alert-info">Programme navigation system design file available <a target="_blank" href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=DE6069EE34C68693EF8B01D7B8793420AEB">here</a>.</p>
+		 
+		
+      <section style="margin-top: 20px;" id="idocs_code">
+        <h2>Validation Required</h2>
+        <p>The following diagram shows how the different forms that make up my system are linked and how each form can be reached from another one</p>
+        <img style="width: 1050px;" src="/images/valid.png" alt="">
+       
+        <section style="margin-top: 20px;" id="idocs_table">
+          <h2>Flowchart Diagram</h2>
+          <p>The following diagram displays the user’s data flow from the initial interaction of the programme and how different option would navigate towards the process of specific functions.
+            </p>
+            <p style="margin-top: 30px;" class="alert alert-info">Programme flowchart design file available <a target="_blank" href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=494BCF14D403B5F066B8E9B085E71AB63EC">here</a>.</p>
+         
+		<!--  Code
+		============================ -->
+		<!-- <section id="idocs_code">
+		  <h2>Code</h2>
+		  <p class="text-4">Documentation and examples for displaying inline and multiline blocks of code</p>
+		  
+		  <h3 class="mt-5">Inline code</h3>
+		  <p>Wrap inline snippets of code with <code>&lt;code&gt;</code>. <span class="text-info">Be sure to escape HTML angle brackets</span>.</p>
+		  
+		  <p>For example, <code>&lt;section&gt;</code> should be wrapped as inline.</p>
+		  <pre><code class="html">For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped as inline.</code></pre>
+		  
+		  
+		  <h3 class="mt-5">Code blocks</h3>
+		  <p>Use <code>&lt;pre&gt;</code>s for multiple lines of code. <span class="text-info">Once again, be sure to escape any angle brackets in the code for proper rendering</span>. You may optionally add the <code>.pre-scrollable</code> class, which will set a max-height of 340px and provide a y-axis scrollbar.</p>
+		  <p><strong>For example:</strong></p>
+		  <pre><code class="html">&lt;p&gt;Sample text here...&lt;/p&gt;
+&lt;p&gt;And another line of sample text here...&lt;/p&gt;
+</code></pre>
+<p><strong>Have to use something like:</strong></p>
+<pre><code class="html">&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Sample text here...&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;And another line of sample text here...&amp;lt;/p&amp;gt;
+&lt;/pre&gt;&lt;/code&gt;
+</code></pre>
+		
+		<h3 class="mt-5">Syntax highlighter</h3>
+		<p>We use <strong><a target="_blank" href="https://highlightjs.org/">Highlight Js</a></strong> for syntax highlight code snippet.</p>
+		<p>You can refer more information here: <a class="btn btn-primary" target="_blank" href="https://highlightjs.org/usage/"><i class="fas fa-external-link-alt mr-1"></i> How to use highlight.js</a></p>
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Table
+		============================ -->
+		<!-- <section id="idocs_table">
+		<h2>Table</h2>
+		<p class="text-4">Documentation and examples for opt-in styling of tables.</p>
+		<p>iDocs is based on Bootstrap 4, so you can easily use Bootstrap's table classes to style your table. <a class="ml-1" target="_blank" href="https://getbootstrap.com/docs/4.4/content/tables/"><i class="fas fa-external-link-alt"></i> Bootstrap Documentation</a></p>
+		
+		<h3 class="mt-5">Bordered</h3>
+		<pre><code class="html">&lt;table class=&quot;table table-bordered&quot;&gt;
+   .......
+&lt;/table&gt;</code></pre>
+		
+		<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+		
+		<h3 class="mt-5">Striped</h3>
+		<pre><code class="html">&lt;table class=&quot;table table-bordered table-striped&quot;&gt;
+   .......
+&lt;/table&gt;</code></pre>
+		
+		<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+		<p><span class="badge badge-danger text-uppercase mr-2">Note</span>You can refer more information in Bootstrap Documentation here: <a class="btn btn-primary" target="_blank" href="https://getbootstrap.com/docs/4.4/content/tables/"><i class="fas fa-external-link-alt mr-1"></i> Bootstrap Documentation</a></p>
+		</section>
+		
+		<hr class="divider">
+		 -->
+		<!-- Icons
+		============================ -->
+        <!-- <section id="idocs_icons">
+          <h2>Icons</h2>
+          <p><strong>Font Awesome</strong> icon sets are used in iDocs.</p>
+		  
+          <pre><code class="html">&lt;i class=&quot;fas fa-mobile-alt&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fas fa-credit-card&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fab fa-facebook-f&quot;&gt;&lt;/i&gt;
+</code></pre>
+<p><span class="badge badge-danger text-uppercase mr-2">Note</span>Please go to their official documentation pages for a full list of icons: <a class="btn btn-primary" target="_blank" href="https://fontawesome.com/icons"><i class="fas fa-external-link-alt mr-1"></i> Font Awesome</a></p>
+        </section>
+		
+		<hr class="divider"> -->
+		
+		<!-- Image
+		============================ -->
+        <!-- <section id="idocs_image">
+          <h2>Image</h2>
+          <p class="text-4">Documentation and examples for opting images into responsive behavior and add lightweight styles to them—all via classes.</p> 
+          
+		  <h3 class="mt-5">Responsive Images</h3>
+		  <p>Images in Bootstrap are made responsive with <code>.img-fluid.</code> <code>max-width: 100%;</code> and <code>height: auto;</code> are applied to the image so that it scales with the parent element.</p>
+		  <p><img src="assets/images/screenshot.jpg" class="img-fluid" alt="Responsive image"></p>
+          <pre><code class="html">&lt;img src=&quot;assets/images/screenshot.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>
+		  
+		  <h3 class="mt-5">Image lightbox</h3>
+		  <p>Show image popup when click on image:</p>
+		  <p><a class="popup-img" href="assets/images/screenshot.jpg"><img src="assets/images/screenshot-thumb.jpg" class="img-fluid img-thumbnail" alt="image"></a></p>
+		  <pre><code class="html">&lt;a class=&quot;popup-img&quot; href=&quot;assets/images/screenshot.jpg&quot;&gt;
+  &lt;img src=&quot;assets/images/screenshot-thumb.jpg&quot; class=&quot;img-fluid img-thumbnail&quot; alt=&quot;image&quot;&gt;
+&lt;/a&gt;</code></pre>
+		  		  
+		  <h3 class="mt-5">Image Lightbox with Link</h3>
+		  <p>Show image popup when click on link: <a class="popup-img" href="assets/images/screenshot.jpg">Click Here for Popup Image</a></p>
+		  <pre><code class="html">&lt;a class=&quot;popup-img&quot; href=&quot;assets/images/screenshot.jpg&quot;&gt;Click Here for Popup Image&lt;/a&gt;</code></pre>
+
+		  <h3 class="mt-5">Image lightbox with Button</h3>
+		  <p>Show image popup when click on button: <a class="btn btn-primary popup-img" href="assets/images/screenshot.jpg">Click Here for Popup Image</a></p>
+		  <pre><code class="html">&lt;a class=&quot;btn btn-primary popup-img&quot; href=&quot;assets/images/screenshot.jpg&quot;&gt;Click Here for Popup Image&lt;/a&gt;</code></pre>
+        </section>
+		
+		<hr class="divider"> -->
+		
+		<!-- Video
+		============================ -->
+        <!-- <section id="idocs_video">
+          <h2>Video</h2>
+          <p class="text-4">Create responsive video embeds based on the width of the parent by creating an intrinsic ratio that scales on any device.</p> 
+          
+		  <h3 class="mt-5">Embedded Video</h3>
+		  <p>Wrap any embed like an <code>&lt;iframe&gt;</code> in a parent element with <code>.embed-responsive</code> and an aspect ratio. The <code>.embed-responsive-item</code> isn’t strictly required, but we encourage it.</p>
+		  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7e90gBu4pas" allowfullscreen></iframe>
+</div>
+          <pre><code class="html">&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/7e90gBu4pas&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</code></pre>
+		  <p><span class="badge badge-danger text-uppercase mr-2">Note</span>Please go to official bootstrap documentation for a full information of embed video: <a class="btn btn-primary" target="_blank" href="https://getbootstrap.com/docs/4.4/utilities/embed/"><i class="fas fa-external-link-alt mr-1"></i> Bootstrap Documentation</a></p>
+		  
+		  <h3 class="mt-5">Popup with Video</h3>
+		  <p>Show <strong>Youtube</strong> and <strong>Vimeo</strong> video popup when click on link:</p>
+		  <p><a class="popup-youtube" href="http://www.youtube.com/watch?v=7e90gBu4pas">Open Popup YouTube Video </a></p>
+		  <pre><code class="html">&lt;a class=&quot;popup-youtube&quot; href=&quot;http://www.youtube.com/watch?v=7e90gBu4pas&quot;&gt;Open Popup YouTube Video &lt;/a&gt;</code></pre>
+		  
+		  <p><a class="popup-vimeo" href="https://vimeo.com/45830194">Open Popup Vimeo video</a></p>
+		  <pre><code class="html">&lt;a class=&quot;popup-vimeo&quot; href=&quot;https://vimeo.com/45830194&quot;&gt;Open Popup Vimeo video&lt;/a&gt;</code></pre>
+        </section>
+        
+		<hr class="divider">  -->
+		
+        <!-- Components
+		============================ -->
+        <section id="idocs_components">
+          <h2>Technincal Solutions</h2>
+          <h2>Testing</h2>
+          <p style="margin-top: 30px;" class="alert alert-info">Due to code being to long-winded, more information about this algorithm is avaiavble within the word file <a target="_blank" href="https://riddlesdown-my.sharepoint.com/:w:/r/personal/16kuviw_rcmail_org_uk/Documents/Wayne%20Kuvi-Documentation.docx?d=wb94ec49deebe4a8d881e88e79cd789bf&csf=1&web=1&e=qdoeBy">here</a>.</p>
+        </section>
+
+        
+		  
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
+<section id="idocs_theme_customization">
